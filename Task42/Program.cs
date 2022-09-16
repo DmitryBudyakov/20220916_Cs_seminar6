@@ -6,7 +6,7 @@
 // 2 -> 10
 
 
-int ConvertDecToBin(int num)
+int ConvertDecToBin(int num)    // преобразование Dec -> Bin с разворотом числа
 {
     int result = 0;
     int count = 1;
