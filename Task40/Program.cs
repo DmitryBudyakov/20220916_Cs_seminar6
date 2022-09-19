@@ -8,7 +8,10 @@
 bool CheckTriangleExist(int num1, int num2, int num3)
 {
     bool check = false;
-    if (num1 < num2 + num3 && num2 < num1 + num3 && num3 < num1 + num2) return true;
+    if (num1 < num2 + num3 
+        && num2 < num1 + num3 
+        && num3 < num1 + num2
+        ) return true;
     else return check;
 }
 
